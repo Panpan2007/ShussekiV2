@@ -123,4 +123,4 @@ async def on_ready():
 
 
 #===================================================================================================
-bot.run('MTE1MDYyNjExNjY2MzUwODk5Mg.GLOERO.ck4LOIoVRyb0nMKp8cHgaUvf3H4u-fEHWevYzY')
+bot.run('YOUR_TOKEN_HERE')
