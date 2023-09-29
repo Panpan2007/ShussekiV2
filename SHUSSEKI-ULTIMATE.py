@@ -18,10 +18,10 @@ intents.message_content = True  # Enable message content intent
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
-server = 'LAPTOP-GJVJTCRT'
+server = 'xxxxxx'#replace with own database info
 database = 'shusseki'
 username = 'sa'
-password = 'ris17460'
+password = 'xxxxxx' #personal info
 
 db_connection_string = (
     f'DRIVER=ODBC Driver 17 for SQL Server;'
@@ -242,4 +242,4 @@ async def commands(ctx):
 
 
 
-bot.run('MTE1MDYyNjExNjY2MzUwODk5Mg.GKW-sK.OMUSUKln-od3xPYi1Hp3Kx4azpMEOl_JBw9RR4')
+bot.run('INSERT_TOKEN')
